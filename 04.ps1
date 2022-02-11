@@ -1,2 +1,2 @@
 #Crea el fitxer test.txt des de PowerShell
-New-Item -Name "test.txt" -ItemType "file"
+New-Item -Path . -Name "test.txt" -ItemType "file"
